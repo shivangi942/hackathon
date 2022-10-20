@@ -1,38 +1,196 @@
 .App {
-  text-align: center;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header--container {
+  position: relative;
   display: flex;
+  padding: 40px;
+}
+.header--logo {
+  justify-content: center;
+}
+.App--page1 {
+  background-color: black;
+  /* height: 1000px; */
+}
+.header--menu {
+  position: absolute;
+  right: 50px;
+}
+.header--element {
+  padding: 10px;
+}
+/* ................................................................................................... */
+.hero--img {
+  display: flex;
+  height: 70rem;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.hero--img1 {
+  width: 400px;
+}
+.hero--text {
+  width: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.hero--crowds {
+  background-color: black;
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+.hero--crowd1 {
+  width: 100%;
+  position: absolute;
+  /* bottom: 0;
+  left: 0; */
+}
+.hero--crowd2 {
+  width: 100%;
+  position: absolute;
+}
+.hero--crowd3 {
+  width: 100%;
+  position: absolute;
+}
+.App--page2 {
+  display: flex;
+}
+.card--container {
+  width: 25%;
+  padding: 8px;
+  margin: 20px;
+  background-color: #e2e1d3;
+}
+#drop {
+  background-color: rgb(253, 253, 253);
+  color: black;
+  font-size: 35px;
+  padding: 0px 50px;
+  position: absolute;
+  width: 92vw;
+  top: 0px;
+  left: 0px;
+  display: none;
+  animation-name: none;
+  animation-duration: 4000s;
+}
+@keyframes dropp {
+  0% {
+    height: 0vh;
+  }
+  0.04% {
+    height: 100vh;
+  }
+}
+.hero--text--dropdown {
+  text-decoration: none;
+}
+.footer {
+  display: grid;
+  align-items: center;
+  background-color: #000000;
+  height: 50vh;
+  padding: 70px;
+  padding-top: 0%;
+  grid-template-areas:
+    "footer--logo footer--logo footer--text"
+    "footer--logo footer--logo footer--text";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer--logo {
+  display: grid;
+  grid-area: 1/1/4/4;
 }
+.footer--text {
+  padding-left: 180px;
+  display: grid;
+  color: rgb(255, 255, 255);
+  grid-area: 1/2/5/6;
+}
+.footer--menu {
+  display: flex;
+  color: aliceblue;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #ffffff;
+}
+.footer--menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer--menu li {
+  padding: 0.6vw;
+}
+.footer hr {
+  width: 100%;
+}
+.footer--instagram {
+  display: flex;
+  justify-self: end;
+}
+.contact {
+  display: flex;
+  padding: 10vw;
+  padding-bottom: 0%;
+}
+.contact--grid1 {
+  width: 50%;
+}
+.contact--sus {
+  padding: 20px;
+  padding-left: 30px;
+}
+.contact--grid2 {
+  width: 50%;
+  padding: 50px;
+  z-index: 1;
+  align-content: center;
+  background: #eeeeee;
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.3);
+  width: 30vw;
+}
+.contact--grid2 button {
+  background: #d6382f;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 41px;
+  width: 90%;
+  margin: 10px;
+}
+.grid2--input1 {
+  border: 1px solid #f80303;
+  width: 90%;
+  margin: 10px;
+  height: 40px;
+}
+.grid2--input2 {
+  border: 1px solid #f80303;
+  width: 90%;
+  margin: 10px;
+  height: 170px;
+}
+/* #hero--text {
+  animation-name: hero--anim;
+  animation-duration: 2s;
+}
+@keyframes hero--anim {
+  0% {
+    color: aqua;
+  }
+  00.04% {
+    color: aquamarine;
+  }
+} */
