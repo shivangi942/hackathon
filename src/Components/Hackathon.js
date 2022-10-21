@@ -64,13 +64,8 @@ export default function Hackathon() {
               Hackathon
             </h1>
             <p className="max-w-lg p-7">
-              
-Big Brain time! Malhaar'22 brings to you a 24hr hackathon to show off your ingenious and clever side.
-
-
-
-@⁨<div>⁩ lemme know if any adjustments are required. <br /> Date: November 23,
-              2022 <br /> Time: 10:00 a.m. onwards
+              Big Brain time! Malhaar'22 brings to you a 24hr hackathon to show
+              off your ingenious and clever side.
               <br /> No. Of team members: 4 <br /> Participation fee: FREE
               <br />
             </p>
@@ -90,19 +85,23 @@ Big Brain time! Malhaar'22 brings to you a 24hr hackathon to show off your ingen
               About <br></br>Hackathon
             </h1>
             <p className="max-w-3xl ">
-              Malhaar'22 in collaboration with CSI brings to you a Hackathon exclusively sponsored by Cvent. 
-Following are the details of the event-
-Date: November 23, 2022
-Time: 10:00 a.m. onwards
-No. of team members: 3 to 5
-THE WINNING TEAM will be awarded a handsome amount of 1,00,000/- to compliment its effort and hardwork!.
+              Malhaar'22 in collaboration with CSI brings to you a Hackathon
+              exclusively sponsored by Cvent. Following are the details of the
+              event- Date: November 23, 2022 Time: 10:00 a.m. onwards No. of
+              team members: 3 to 5 THE WINNING TEAM will be awarded a handsome
+              amount of 1,00,000/- to compliment its effort and hardwork!.
             </p>
           </div>
           <div className="flex flex-col-reverse p-10 md:flex md:flex-row gap-4 justify-center md:pt-10 md:p-36">
             <div>
               <p className="max-w-3xl ">
-                COMING SOON! Registered teams will be provided with a problem statement to rack their brains on. They will have to work for a full day to present their groundbreaking ideas. The problem statements will be uploaded on the portal very soon and the teams will also be notified of the updates regarding it. Stay tuned and follow the official page of Malhaar to get timely updates!
- 
+                COMING SOON! Registered teams will be provided with a problem
+                statement to rack their brains on. They will have to work for a
+                full day to present their groundbreaking ideas. The problem
+                statements will be uploaded on the portal very soon and the
+                teams will also be notified of the updates regarding it. Stay
+                tuned and follow the official page of Malhaar to get timely
+                updates!
               </p>
             </div>
             <h1 className="text-3xl md:text-7xl font-semibold">
@@ -114,9 +113,9 @@ THE WINNING TEAM will be awarded a handsome amount of 1,00,000/- to compliment i
           <div className="p-10 md:p-20">
             <h1 className="text-4xl md:text-6xl font-semibold">Participate</h1>
             <p className="max-w-lg pt-10 md:p-10">
-              The Participation fee for every team is absolutely FREE. So what are you waiting for?
-Get your tickets and REGISTER FOR FREE to get your contemplating minds aboard this avant-garde quest!
-
+              The Participation fee for every team is absolutely FREE. So what
+              are you waiting for? Get your tickets and REGISTER FOR FREE to get
+              your contemplating minds aboard this avant-garde quest!
             </p>
             <img src={image} alt="laptop" />
           </div>
