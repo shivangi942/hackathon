@@ -68,8 +68,7 @@ export default function Hackathon() {
 Big Brain time! Malhaar'22 brings to you a 24hr hackathon to show off your ingenious and clever side.
 
 
-
-@⁨<div>⁩ lemme know if any adjustments are required. <br /> Date: November 23,
+<br /> Date: November 23,
               2022 <br /> Time: 10:00 a.m. onwards
               <br /> No. Of team members: 4 <br /> Participation fee: FREE
               <br />
